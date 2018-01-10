@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.8.RELEASE")
+    }
+}
+
+group 'com.joona'
+version '1.0.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'library'
+    version =  version
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    //For spring boot RESt controller and other things
+    compile("org.springframework.boot:spring-boot-starter-web")
+    // For JSONObject that can be easily constructed using key value pairs
+    compile group: 'net.minidev', name: 'json-smart', version: '1.0.9'
+    //To use @Getter @Setter annotations
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.16.18'
+
+    // IOUtils from apache to read contents of file easily
+    testCompile group: 'commons-io', name: 'commons-io', version: '2.4'
+    //Test classes & framework  (Junit based) for spring boot
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
