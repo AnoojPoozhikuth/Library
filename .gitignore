@@ -1,0 +1,9 @@
+#Ignore idea specific files
+.idea/
+Library.iml
+#Ignore gradle files
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+out/
