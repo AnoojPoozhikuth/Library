@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class LibraryController {
+public class LibraryHealthCheckController {
     @RequestMapping(value = "/library/app/health",method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity<String> healthCheck(){

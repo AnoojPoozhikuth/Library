@@ -6,4 +6,5 @@ Library.iml
 gradle/
 gradlew
 gradlew.bat
+#Ignoring out directory files
 out/

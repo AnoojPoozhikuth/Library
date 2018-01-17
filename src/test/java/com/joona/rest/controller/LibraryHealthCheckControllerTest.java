@@ -15,9 +15,9 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = LibraryController.class)
+@SpringBootTest(classes = LibraryHealthCheckController.class)
 @AutoConfigureMockMvc
-public class LibraryControllerTest {
+public class LibraryHealthCheckControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
