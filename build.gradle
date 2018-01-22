@@ -33,6 +33,8 @@ dependencies {
     compile group: 'net.minidev', name: 'json-smart', version: '1.0.9'
     //To use @Getter @Setter annotations
     compile group: 'org.projectlombok', name: 'lombok', version: '1.16.18'
+    //To get various string utils
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
 
     // IOUtils from apache to read contents of file easily
     testCompile group: 'commons-io', name: 'commons-io', version: '2.4'
