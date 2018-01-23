@@ -6,8 +6,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class AddBookRequestDTO {
-    String book;
-    String author;
-    String category;
-    String language;
+    private String book;
+    private String author;
+    private String category;
+    private String language;
 }

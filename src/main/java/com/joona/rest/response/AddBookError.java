@@ -6,6 +6,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class AddBookError {
-    String errorMessage;
-    String errorCode;
+    private String errorMessage;
+    private String errorCode;
 }

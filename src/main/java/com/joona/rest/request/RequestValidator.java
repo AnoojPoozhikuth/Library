@@ -1,4 +1,4 @@
-package com.joona.rest.service;
+package com.joona.rest.request;
 
 import com.joona.rest.request.AddBookRequestDTO;
 import com.joona.rest.response.AddBookError;

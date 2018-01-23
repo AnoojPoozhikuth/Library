@@ -110,7 +110,7 @@ public class AddBookControllerTest extends BaseTest {
 
         String responseString = mvcResult.getResponse().getContentAsString();
 
-        String contentFromFile = getContentFromFile(SOURCE_DIRECTORY.concat("Inproper_author_name_error.json"));
+        String contentFromFile = getContentFromFile(SOURCE_DIRECTORY.concat("Improper_author_name_error.json"));
 
         assertEquals(contentFromFile, responseString);
     }
@@ -131,7 +131,7 @@ public class AddBookControllerTest extends BaseTest {
 
         String responseString = mvcResult.getResponse().getContentAsString();
 
-        String contentFromFile = getContentFromFile(SOURCE_DIRECTORY.concat("Inproper_author_name_error.json"));
+        String contentFromFile = getContentFromFile(SOURCE_DIRECTORY.concat("Improper_author_name_error.json"));
 
         assertEquals(contentFromFile, responseString);
     }
@@ -152,7 +152,7 @@ public class AddBookControllerTest extends BaseTest {
 
         String responseString = mvcResult.getResponse().getContentAsString();
 
-        String contentFromFile = getContentFromFile(SOURCE_DIRECTORY.concat("Inproper_author_name_error.json"));
+        String contentFromFile = getContentFromFile(SOURCE_DIRECTORY.concat("Improper_author_name_error.json"));
 
         assertEquals(contentFromFile, responseString);
     }
