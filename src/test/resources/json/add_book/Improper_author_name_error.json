@@ -1,0 +1,1 @@
+{"status":"failure","errors":[{"errorMessage":"Author name should not contain numerics and special charachers other than space and dot","errorCode":"_ERR_INVALID_CHARACTERS_IN_AUTHOR_NAME"}]}
